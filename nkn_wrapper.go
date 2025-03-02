@@ -1,8 +1,9 @@
 package libXray
 
-//import (
-//	"github.com/nknorg/nkn-sdk-go"
-//)
+import (
+	"github.com/nknorg/nkn-sdk-go"
+)
+
 //
 //const NknTextType = nkn.TextType
 //const NknSessionType = nkn.SessionType
@@ -158,6 +159,10 @@ package libXray
 //var NknClientAddrToWalletAddr = nkn.ClientAddrToWalletAddr
 //var NknClientAddrToPubKey = nkn.ClientAddrToPubKey
 //var NknSubscribe = nkn.Subscribe
+
+func NknNewAccount(seed []byte) (*nkn.Account, error) {
+	return nkn.NewAccount(seed)
+}
 
 // Nkn test
 func NknTest() string {

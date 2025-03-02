@@ -5,17 +5,9 @@ go 1.24.0
 replace github.com/xtls/xray-core => ../Xray-core
 
 require (
-	github.com/gorilla/websocket v1.5.3
-	github.com/hashicorp/go-multierror v1.1.1
-	github.com/jinzhu/copier v0.4.0
-	github.com/nknorg/ncp-go v1.0.6
-	github.com/nknorg/nkn/v2 v2.2.1
-	github.com/nknorg/nkngomobile v0.0.0-20220615081414-671ad1afdfa9
-	github.com/patrickmn/go-cache v2.1.0+incompatible
+	github.com/nknorg/nkn-sdk-go v1.4.8
 	github.com/stretchr/testify v1.10.0
 	github.com/xtls/xray-core v0.0.0-00010101000000-000000000000
-	golang.org/x/crypto v0.35.0
-	golang.org/x/mobile v0.0.0-20250218173827-cd096645fcd3
 	google.golang.org/protobuf v1.36.5
 	gopkg.in/yaml.v3 v3.0.1
 )
@@ -32,12 +24,18 @@ require (
 	github.com/google/btree v1.1.2 // indirect
 	github.com/google/pprof v0.0.0-20240528025155-186aa0362fba // indirect
 	github.com/google/uuid v1.6.0 // indirect
+	github.com/gorilla/websocket v1.5.3 // indirect
 	github.com/hashicorp/errwrap v1.0.0 // indirect
-	github.com/imdario/mergo v0.3.8 // indirect
+	github.com/hashicorp/go-multierror v1.1.0 // indirect
+	github.com/imdario/mergo v0.3.13 // indirect
 	github.com/itchyny/base58-go v0.0.5 // indirect
 	github.com/klauspost/compress v1.17.8 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.7 // indirect
+	github.com/nknorg/ncp-go v1.0.5 // indirect
+	github.com/nknorg/nkn/v2 v2.2.1-0.20240509224846-24ade56074a3 // indirect
+	github.com/nknorg/nkngomobile v0.0.0-20220615081414-671ad1afdfa9 // indirect
 	github.com/onsi/ginkgo/v2 v2.19.0 // indirect
+	github.com/patrickmn/go-cache v2.1.0+incompatible // indirect
 	github.com/pbnjay/memory v0.0.0-20190104145345-974d429e7ae4 // indirect
 	github.com/pborman/uuid v1.2.0 // indirect
 	github.com/pelletier/go-toml v1.9.5 // indirect
@@ -73,7 +71,9 @@ require (
 	github.com/xtls/reality v0.0.0-20240712055506-48f0b2d5ed6d // indirect
 	go.uber.org/mock v0.5.0 // indirect
 	go4.org/netipx v0.0.0-20231129151722-fdeea329fbba // indirect
+	golang.org/x/crypto v0.35.0 // indirect
 	golang.org/x/exp v0.0.0-20240531132922-fd00a4e0eefc // indirect
+	golang.org/x/mobile v0.0.0-20250218173827-cd096645fcd3 // indirect
 	golang.org/x/mod v0.23.0 // indirect
 	golang.org/x/net v0.35.0 // indirect
 	golang.org/x/sync v0.11.0 // indirect
